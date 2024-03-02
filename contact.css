@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+/* navbar start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 56px;
+    object-fit: contain;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+
+    color: #000;
+}
+
+.nav-link.active {
+    color: #000 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar end */
+/* footer start */
+.india {
+    padding: 50px 20px;
+}
+
+.swift {
+    width: 213px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.india p {
+    font-size: 1.2rem;
+    color: #636363;
+    margin: 20px 0;
+}
+
+.india1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    flex-direction: column;
+}
+
+.india1 h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.india1 a {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.india1 a:hover {
+    color: rgb(184, 184, 184);
+}
+
+.india2 {
+    padding: 50px 20px 1px;
+    color: #000;
+}
+
+.phone {
+    margin: 10px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.phone i {
+    color: #000;
+    margin: 0 10px 0 0;
+}
+
+
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.phone a {
+    font-size: 1rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: blue;
+}
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.design p {
+    font-size: 1.3rem;
+    color: #000;
+    border-top: 1px solid #000;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* footer end */
+.welcome {
+    text-align: center;
+}
+
+.welcome p {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 120px 0 0 0;
+    font-size: 3rem;
+    z-index: 2;
+
+}
+
+.doctors {
+    position: relative;
+    background-image: url(images/Contact\ us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0px 0px 178px;
+    margin: 82px 0 0 0;
+}
+
+/* .doctors:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(171, 216, 188, 0.5);
+     background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(5, 44, 112, 0.65));
+} */
+
+.form10 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+
+.text8 {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.text10 {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 8px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.text9 {
+    display: block;
+    width: 100%;
+    height: 75px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.message12 {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #54b669;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.message12:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.need a {
+    color: #616575;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.need a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.need p {
+
+    font-size: 1.2rem;
+
+    color: #000;
+    margin: 20px 0 10px 0;
+
+}
+
+
+
+
+
+.phone1 {
+    margin: 10px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.phone1 i {
+    color: #fff;
+    margin: 0 10px 0 0;
+    font-size: 1.3rem;
+}
+
+
+
+.phone1 span {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.phone1 a {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.phone1 a:hover {
+    color: blue;
+}
+
+.phone1 span {
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media (max-width:576px) {
+    .design p {
+        font-size: 1rem;
+    }
+
+    /* footer start */
+    .india {
+        padding: 31px 0 5px 0;
+    }
+
+    .swift {
+        margin: 0 0 0 -28px;
+    }
+
+    .india1 {
+        padding: 7px 6px;
+    }
+
+    .india2 {
+        padding: 5px 2px 9px;
+    }
+
+    /* footer end */
+    .welcome p {
+        margin: 160px 0 0 0;
+    }
+}

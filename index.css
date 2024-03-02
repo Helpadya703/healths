@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 56px;
+    object-fit: contain;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+
+    color: #000;
+}
+
+.nav-link.active {
+    color: #000 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.doctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5000;
+    margin-top: 50px;
+}
+
+.doctor p:nth-child(1) {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.doctor p:nth-child(2) {
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.doctor1 {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0px 0;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+
+
+
+}
+
+.margins {
+    margin-top: -180px;
+}
+
+.mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mobile1 i {
+    font-size: 2rem;
+    color: rgb(88, 88, 255);
+}
+
+.mobile2 {
+    margin: 10px 0 0 10px;
+}
+
+.mobile2 h4:nth-child(1) {
+    font-size: 1.5rem;
+    color: rgb(88, 88, 255);
+    margin: 5px 0 0 0;
+}
+
+.mobile2 a {
+    color: rgb(88, 88, 255);
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.mobile2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images5 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+
+}
+
+.find p {
+    font-size: 30px;
+    color: #103f83;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.search {
+    width: 80%;
+    height: 66px;
+    margin: -30px 0 15px 0;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: 1px solid gray;
+    color: rgb(153, 153, 153);
+    border-radius: 30px;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    margin: -30px 0 0 0;
+    border: none;
+    font-size: 1.3rem;
+    position: relative;
+    right: 65px;
+    bottom: 7px;
+
+}
+
+.butto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 25px 0;
+}
+
+.button4 {
+    width: auto;
+    height: 50px;
+    background-color: #103f83;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+}
+
+.button5 {
+    width: auto;
+    height: 50px;
+    background-color: #103f83;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+
+    border-radius: 10px;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+
+
+.we {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.we p {
+    font-size: 3.5rem;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    margin: 60px 0 40px 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+
+}
+
+.photo {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+.photo1 {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 0 0 62px;
+}
+
+.help1 {
+    margin: 10px 0 0 0;
+}
+
+.help1 h6 {
+    margin: 15px 0;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+.help1 p {
+    color: #6e6e6e;
+    font-size: 1rem;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 60px;
+    background-color: white;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    margin: -1px 0 0 0;
+}
+
+.text2 {
+    width: 100%;
+    height: 45px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #7a7777;
+}
+
+.text3 {
+    width: 100%;
+    height: 80px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #7a7777;
+}
+
+.message {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #02c9b8;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    border: none;
+}
+
+.message:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.message10 {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #54b669;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.message10:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cont h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+/* footer start */
+.india {
+    padding: 50px 20px;
+}
+
+.swift {
+    width: 213px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.india p {
+    font-size: 1.2rem;
+    color: #636363;
+    margin: 20px 0;
+}
+
+.india1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    flex-direction: column;
+}
+
+.india1 h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.india1 a {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.india1 a:hover {
+    color: rgb(184, 184, 184);
+}
+
+.india2 {
+    padding: 50px 20px 1px;
+    color: #000;
+}
+
+.phone {
+    margin: 10px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.phone i {
+    color: #000;
+    margin: 0 10px 0 0;
+}
+
+
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.phone a {
+    font-size: 1rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: blue;
+}
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.design p {
+    font-size: 1.3rem;
+    color: #000;
+    border-top: 1px solid #000;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* footer end */
+.detalis {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.detalis p:nth-child(1) {
+    font-size: 2.5rem;
+    color: #103f83;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.on {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+
+
+
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.on:hover {
+    transform: scale(1.2);
+    transition-duration: 3000ms;
+}
+
+
+.on1 {
+    border-radius: 50%;
+    box-shadow: 0 0 9px 2px rgb(20 23 28 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 80px;
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px;
+    margin: -48px auto 7px;
+
+}
+
+.on2 {
+    width: auto;
+    height: 57px;
+    object-fit: contain;
+    transition: .3s ease-in-out;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messages2 {
+    width: auto;
+    padding: 3px 10px;
+    background-color: #103f83;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.messages2:hover {
+    background-color: #000;
+}
+
+.message1 {
+    background-color: #378310;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0 0 0;
+}
+
+.on1 p {
+    font-size: 1rem;
+    margin: 20px 0;
+    font-weight: 300;
+    color: #000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 10px 0;
+}
+
+.hospital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    border-right: 1px solid #fff;
+}
+
+.hospital i {
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+.hospital h5 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hospital p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.hospital1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+
+}
+
+.hospital1 i {
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+.hospital1 h5 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hospital1 p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.care {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 0;
+    flex-direction: column;
+}
+
+.care h4 {
+    font-size: 30px;
+    color: #103f83;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+
+.care p {
+    font-size: 19px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.care p::after {
+    border-top: 1px solid #2600ff;
+    content: '';
+    display: block;
+    margin: 12px auto 13px auto;
+    max-width: 100%;
+    width: 100px;
+}
+
+.Services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Services p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #103f83;
+    border-bottom: 1px solid #103f83;
+    margin: 15px 0;
+}
+
+.offer1 ul li {
+    font-size: 1.3rem;
+    color: #103f83;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.modal-header .btn-close {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+}
+
+.text8 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.text9 {
+    display: block;
+    width: 100%;
+    height: 75px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.modal-footer {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 21px 22px;
+}
+
+.on4 p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@media (max-width:576px) {
+    .design p {
+        font-size: 1rem;
+    }
+
+    .modal-header .btn-close {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 55px;
+        bottom: 10px;
+    }
+
+    .hospital p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .Services p {
+        font-size: 1.2rem;
+    }
+
+    .hospital {
+        border-bottom: 1px solid #fff;
+        border-right: 0;
+    }
+
+    .detalis p:nth-child(2) {
+        line-height: 20px;
+        font-size: 1rem;
+    }
+
+    .detalis p:nth-child(1) {
+
+        font-size: 1.5rem;
+    }
+
+    .find p {
+        font-size: 1.4rem;
+        margin: 10px 0 -5px 0;
+    }
+
+    .search {
+        width: 100%;
+        margin: 0 -62px 0 0;
+    }
+
+    .butto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button4 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .button5 {
+        width: 100%;
+    }
+
+
+
+
+
+    .form5 {
+        padding: 40px 23px;
+        margin: 20px 0;
+    }
+
+    .help1 h6 {
+        text-align: center;
+    }
+
+    .help1 p {
+        font-size: 1rem;
+    }
+
+    .doctor p:nth-child(1) {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+
+    }
+
+    .button {
+        position: relative;
+        right: 4px;
+        top: 15px;
+        font-size: 0.7rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .photo1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .we p {
+        font-size: 2rem !important;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* footer start */
+    .india {
+        padding: 31px 0 5px 0;
+    }
+
+    .swift {
+        margin: 0 0 0 -28px;
+    }
+
+    .india1 {
+        padding: 7px 6px;
+    }
+
+    .india2 {
+        padding: 5px 2px 9px;
+    }
+
+    /* footer end */
+    .design p {
+        font-size: 1rem;
+    }
+
+    .care h4 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width:768px) {
+
+    .modal-header .btn-close {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 55px;
+        bottom: 10px;
+    }
+
+    .hospital p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .Services p {
+        font-size: 1.2rem;
+    }
+
+    .hospital {
+
+        border-right: 0;
+    }
+
+    .detalis p:nth-child(2) {
+        line-height: 20px;
+        font-size: 1rem;
+    }
+
+    .detalis p:nth-child(1) {
+
+        font-size: 1.5rem;
+    }
+
+    .find p {
+        font-size: 1.4rem;
+        margin: 10px 0 -5px 0;
+    }
+
+    .search {
+        width: 100%;
+        margin: 0 -62px 0 0;
+    }
+
+    .butto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button4 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .button5 {
+        width: 100%;
+    }
+
+    .images {
+
+        height: 207px;
+
+    }
+
+
+
+    .form5 {
+        padding: 40px 23px;
+        margin: 20px 0;
+    }
+
+    .help1 h6 {
+        text-align: center;
+    }
+
+    .help1 p {
+        font-size: 1rem;
+    }
+
+    .doctor p:nth-child(1) {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+
+    }
+
+    .button {
+        position: relative;
+        right: 4px;
+        top: 15px;
+        font-size: 0.7rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .photo1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .we p {
+        font-size: 2.5rem;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* footer start */
+    .india {
+        padding: 31px 0 5px 0;
+    }
+
+    .swift {
+        margin: 0 0 0 -28px;
+    }
+
+    .india1 {
+        padding: 7px 6px;
+    }
+
+    .india2 {
+        padding: 5px 2px 9px;
+    }
+
+    /* footer end */
+    .design p {
+        font-size: 1rem;
+    }
+
+    .care h4 {
+        font-size: 1.5rem;
+    }
+}

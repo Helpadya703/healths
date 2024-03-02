@@ -1,0 +1,559 @@
+/* navbar start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 56px;
+    object-fit: contain;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+
+    color: #000;
+}
+
+.nav-link.active {
+    color: #000 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar end */
+/* footer start */
+.india {
+    padding: 50px 20px;
+}
+
+.swift {
+    width: 213px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.india p {
+    font-size: 1.2rem;
+    color: #636363;
+    margin: 20px 0;
+}
+
+.india1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    flex-direction: column;
+}
+
+.india1 h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.india1 a {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.india1 a:hover {
+    color: rgb(184, 184, 184);
+}
+
+.india2 {
+    padding: 50px 20px 1px;
+    color: #000;
+}
+
+.phone {
+    margin: 10px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.phone i {
+    color: #000;
+    margin: 0 10px 0 0;
+}
+
+
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.phone a {
+    font-size: 1rem;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: blue;
+}
+
+.phone span {
+    font-size: 1rem;
+    color: #000;
+}
+
+.design p {
+    font-size: 1.3rem;
+    color: #000;
+    border-top: 1px solid #000;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* footer end */
+
+
+.welcome {
+    text-align: center;
+}
+
+.welcome p {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 120px 0 0 0;
+    font-size: 3rem;
+    z-index: 2;
+
+}
+
+.card {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: 2px solid #80bcbd;
+
+}
+
+.card1 {
+    padding-top: 20px;
+
+}
+
+.card2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card2 p {
+    font-size: 1rem;
+    color: #636363;
+}
+
+.messages3 {
+    width: 100%;
+    padding: 20px;
+    background-color: #80bcbd;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.messages3:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.text8 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.text9 {
+    display: block;
+    width: 100%;
+    height: 75px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.message10 {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #54b669;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.message10:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.modal-footer {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 21px 22px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services p {
+    text-align: center;
+    font-size: 3rem;
+    margin: 25px 0;
+    color: #636363;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+
+
+.services10 p {
+    font-size: 3rem;
+    color: #103f83;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.Cardiacs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+    background-color: #fff;
+    margin: 40px 0 0 0;
+
+}
+
+.Cardiacs p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #103f83;
+    font-weight: 700;
+}
+
+.Cardiacs ul li {
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: 400;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.fluid {
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -76px 0 0 0;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 82px;
+    right: -15px;
+    z-index: 5;
+    transform: rotate(270deg);
+}
+
+/* .Medical {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+
+    transition: all 0.3s ease 0s;
+    border-radius: 50px 0;
+    border: 2px solid #80bcbd;
+    padding: 20px;
+}
+
+.medicals1 {
+    position: relative;
+    width: 102px;
+    top: -21px;
+    left: 224px;
+    text-align: center;
+    height: 38px;
+    background-color: #08c;
+
+}
+
+.medicals1::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    top: -23px;
+    left: -8px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #08c;
+}
+
+.medicals1:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #636363;
+} */
+.serviceBox {
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0 15px 25px;
+    margin: 10px;
+    border: 1px solid #80bcbd;
+    border-radius: 50px 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.serviceBox .service-icon {
+    color: #fff;
+    background: #6ca8da;
+    font-size: 35px;
+    width: 90px;
+    padding: 0 0 5px;
+    margin: 0 auto 30px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.serviceBox .service-icon:before {
+    content: "";
+    background: #6ca8da;
+    width: calc(100% + 14px);
+    height: 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -10px;
+    left: 50%;
+}
+
+.serviceBox .service-icon span:before,
+.serviceBox .service-icon span:after {
+    content: '';
+    background-color: rgb(49 158 77);
+    height: 10px;
+    width: 15px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: -15px;
+    top: -10px;
+}
+
+.serviceBox .service-icon span:after {
+    left: auto;
+    right: -15px;
+}
+
+.can {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+
+.Servicesby p {
+    text-align: center;
+    color: #084d8a;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'robotoregular';
+    margin: 33px 0 4px 0;
+}
+
+.heading-line-wrap {
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background-color: #084d8a;
+    content: "";
+    height: 2px;
+    width: 182px;
+    margin-bottom: 20px;
+}
+
+.data {
+    width: 100%;
+    height: auto;
+}
+
+.data2 {
+    margin: 109px 0 0 0;
+}
+
+.data2 p {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #104084;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+
+
+@media (max-width:576px) {
+    .data2 p {
+        font-size: 1.5rem;
+    }
+
+    .Servicesby p {
+        font-size: 1.4rem;
+    }
+
+    .design p {
+        font-size: 1rem;
+    }
+
+    .Cardiacs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Cardiacs ul li {
+        font-size: 1.6rem;
+        margin: 0 -28px 0 0;
+    }
+
+    .services10 p {
+        font-size: 1.8rem;
+    }
+
+    .services p {
+
+        font-size: 1.4rem;
+
+    }
+
+    /* footer start */
+    .india {
+        padding: 31px 0 5px 0;
+    }
+
+    .swift {
+        margin: 0 0 0 -28px;
+    }
+
+    .india1 {
+        padding: 7px 6px;
+    }
+
+    .india2 {
+        padding: 5px 2px 9px;
+    }
+
+    /* footer end */
+}
+
+@media (max-width:768px) {
+    .Cardiacs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Cardiacs ul li {
+        font-size: 1.6rem;
+        margin: 0 -28px 0 0;
+    }
+
+    .services10 p {
+        font-size: 1.8rem;
+    }
+
+    .services p {
+
+        font-size: 1.4rem;
+
+    }
+
+    /* footer start */
+    .india {
+        padding: 31px 0 5px 0;
+    }
+
+    .swift {
+        margin: 0 0 0 -28px;
+    }
+
+    .india1 {
+        padding: 7px 6px;
+    }
+
+    .india2 {
+        padding: 5px 2px 9px;
+    }
+
+    /* footer end */
+}
